@@ -1,0 +1,37 @@
+{
+  "name": "apollo-upload-examples-api",
+  "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Jayden Seric",
+    "email": "me@jaydenseric.com",
+    "url": "https://jaydenseric.com"
+  },
+  "engines": {
+    "node": ">=8.6"
+  },
+  "dependencies": {
+    "apollo-server-koa": "^2.9.5",
+    "aws-sdk": "^2.547.0",
+    "dotenv": "^8.1.0",
+    "graphql": "^14.5.8",
+    "koa": "^2.8.2"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-env": "^9.1.0",
+    "eslint-config-prettier": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-import-order-alphabetical": "^1.0.0",
+    "eslint-plugin-jsdoc": "^15.10.0",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "nodemon": "^1.19.3",
+    "prettier": "^1.18.2"
+  },
+  "scripts": {
+    "dev": "nodemon -i db.json",
+    "start": "node -r dotenv/config server",
+    "test": "eslint . && prettier '**/*.{json,yml,md}' -l"
+  }
+}
