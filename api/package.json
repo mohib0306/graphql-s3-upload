@@ -11,7 +11,7 @@
     "node": ">=8.6"
   },
   "dependencies": {
-    "apollo-server-koa": "^2.9.5",
+    "apollo-server-koa": "^2.14.2",
     "aws-sdk": "^2.547.0",
     "dotenv": "^8.1.0",
     "graphql": "^14.5.8",
